@@ -11,7 +11,4 @@ angular.module('app', ['ngRoute'])
   })  .otherwise({
         redirectTo: '/cart'
     })
-}])
-.controller('CartCtrl', [function() {
-
 }]);
